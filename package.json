@@ -1,0 +1,23 @@
+{
+  "name": "react-easy-deploy",
+  "version": "1.0.1",
+  "description": "Make deployment easier for React.Js projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharva-borekar/react-deploy-v1.git"
+  },
+  "keywords": [
+    "React.Js",
+    "Deployment"
+  ],
+  "author": "Atharva Borekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharva-borekar/react-deploy-v1/issues"
+  },
+  "homepage": "https://github.com/atharva-borekar/react-deploy-v1#readme"
+}
