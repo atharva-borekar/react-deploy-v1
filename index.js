@@ -4,26 +4,10 @@ const readline = require("readline").createInterface({
   output: process.stdout,
 });
 const configConstants = {
-  NODE_VERSION: "nodeVersion",
-  WORK_DIRECTORY: "workDirectory",
-  DOCKER_COMPOSE_FILE_NAME: "dockerComposeFilename",
-  DOCKERFILE_NAME: "dockerfileName",
-  DOCKER_VERSION: "dockerVersion",
-  CONTAINER_NAME: "containerName",
-  CONTAINER_PORT: "containerPort",
-  HOST_PORT: "hostPort",
   NGINX_CONFIG_FILE_NAME: "nginxConfigFileName",
 };
 
 const defaultConfig = {
-  [configConstants.NODE_VERSION]: "node:16-alpine",
-  [configConstants.WORK_DIRECTORY]: "/app",
-  [configConstants.DOCKER_COMPOSE_FILE_NAME]: "docker-compose.yml",
-  [configConstants.DOCKERFILE_NAME]: "Dockerfile",
-  [configConstants.DOCKER_VERSION]: "3.3",
-  [configConstants.CONTAINER_NAME]: "my-app",
-  [configConstants.CONTAINER_PORT]: "80",
-  [configConstants.HOST_PORT]: "80",
   [configConstants.NGINX_CONFIG_FILE_NAME]: "default.conf",
 };
 
