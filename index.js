@@ -100,7 +100,6 @@ const installPackages = () =>
         }
         if (stderr) {
           printWarning(`stderr: ${stderr}`);
-          return;
         }
         print(stdout);
         resolve("Packages installed successfully!");
@@ -159,7 +158,6 @@ const copyBuild = (configObj) =>
         }
         if (stderr) {
           printWarning(`stderr: ${stderr}`);
-          return;
         }
         print(stdout);
         resolve("Build has been copied to server!");
